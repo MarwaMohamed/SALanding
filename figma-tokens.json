@@ -1,0 +1,96 @@
+{
+  "color": {
+    "brand": {
+      "royal-green": { "value": "#004D2C", "type": "color", "description": "Primary brand green - deepest tone" },
+      "emerald": { "value": "#006C35", "type": "color", "description": "Secondary brand green" },
+      "green-light": { "value": "#89CBB5", "type": "color", "description": "Light mint green for accents" },
+      "green-solid": { "value": "#2D8B69", "type": "color", "description": "Solid green for CTAs and active states" },
+      "gold": { "value": "#C5A059", "type": "color", "description": "Saudi gold accent" },
+      "gold-light": { "value": "#E0C089", "type": "color", "description": "Light gold for highlights" }
+    },
+    "surface": {
+      "background": { "value": "#000000", "type": "color" },
+      "glass-bg": { "value": "rgba(255, 255, 255, 0.05)", "type": "color" },
+      "glass-border": { "value": "rgba(255, 255, 255, 0.1)", "type": "color" },
+      "card-bg": { "value": "#111111", "type": "color" }
+    },
+    "text": {
+      "primary": { "value": "#FFFFFF", "type": "color" },
+      "secondary": { "value": "rgba(255, 255, 255, 0.7)", "type": "color" },
+      "ghost": { "value": "rgba(255, 255, 255, 0.04)", "type": "color" }
+    }
+  },
+  "typography": {
+    "font-family": { "value": "'IBM Plex Sans Arabic', sans-serif", "type": "fontFamily" },
+    "heading-xl": {
+      "fontSize": { "value": "120px", "type": "fontSize" },
+      "fontWeight": { "value": "900", "type": "fontWeight" },
+      "lineHeight": { "value": "1.2", "type": "lineHeight" }
+    },
+    "heading-ghost": {
+      "fontSize": { "value": "clamp(8rem, 20vw, 25rem)", "type": "fontSize" },
+      "fontWeight": { "value": "900", "type": "fontWeight" }
+    },
+    "body": {
+      "fontSize": { "value": "1.1rem", "type": "fontSize" },
+      "lineHeight": { "value": "1.6", "type": "lineHeight" }
+    },
+    "counter": {
+      "fontSize": { "value": "1rem", "type": "fontSize" },
+      "fontWeight": { "value": "700", "type": "fontWeight" },
+      "letterSpacing": { "value": "4px", "type": "letterSpacing" }
+    },
+    "card-title": {
+      "fontSize": { "value": "1.8rem", "type": "fontSize" },
+      "fontWeight": { "value": "900", "type": "fontWeight" }
+    },
+    "card-subtitle": {
+      "fontSize": { "value": "0.8rem", "type": "fontSize" },
+      "fontWeight": { "value": "700", "type": "fontWeight" },
+      "letterSpacing": { "value": "2px", "type": "letterSpacing" }
+    }
+  },
+  "spacing": {
+    "content-padding": { "value": "8vw", "type": "spacing" },
+    "card-gap": { "value": "40px", "type": "spacing" },
+    "card-gap-mobile": { "value": "20px", "type": "spacing" },
+    "section-gap": { "value": "20px", "type": "spacing" },
+    "card-footer-padding": { "value": "25px", "type": "spacing" },
+    "nav-bottom": { "value": "60px", "type": "spacing" }
+  },
+  "sizing": {
+    "card": {
+      "width": { "value": "300px", "type": "sizing" },
+      "height": { "value": "400px", "type": "sizing" },
+      "width-mobile": { "value": "200px", "type": "sizing" },
+      "height-mobile": { "value": "300px", "type": "sizing" }
+    },
+    "button-circle": {
+      "width": { "value": "44px", "type": "sizing" },
+      "height": { "value": "44px", "type": "sizing" }
+    },
+    "cta-button": {
+      "width": { "value": "220px", "type": "sizing" },
+      "height": { "value": "60px", "type": "sizing" }
+    },
+    "map": {
+      "width": { "value": "320px", "type": "sizing" },
+      "height": { "value": "240px", "type": "sizing" }
+    }
+  },
+  "borderRadius": {
+    "card": { "value": "20px", "type": "borderRadius" },
+    "button-circle": { "value": "50%", "type": "borderRadius" },
+    "cta-button": { "value": "40px", "type": "borderRadius" }
+  },
+  "shadow": {
+    "card": { "value": "0 20px 40px rgba(0, 0, 0, 0.5)", "type": "boxShadow" },
+    "map": { "value": "0 0 20px rgba(197, 160, 89, 0.2)", "type": "boxShadow" }
+  },
+  "animation": {
+    "transition-liquid": { "value": "all 1.2s cubic-bezier(0.23, 1, 0.32, 1)", "type": "transition" },
+    "ease-luxury": { "value": "cubic-bezier(0.7, 0, 0.3, 1)", "type": "cubicBezier" },
+    "ken-burns-duration": { "value": "40s", "type": "duration" },
+    "particle-duration": { "value": "10s", "type": "duration" }
+  }
+}
